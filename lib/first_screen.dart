@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/model/movie.dart';
 
 class FirstScreen extends StatelessWidget {
+  final List<Movie> movieList =Movie.getMovies();
   final List movies = [
     "Titanic",
     "Blade Runner",
